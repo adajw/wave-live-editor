@@ -1,0 +1,56 @@
+body {
+font: 1.2em Arial;
+}
+h1,h2,h3,h4,h5,h6 {
+padding: 0;
+line-height: 0;
+}
+
+#input {
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:8%;
+}
+
+.output {
+position:fixed;
+right:0;
+width:99%;
+height:32%;
+}
+
+#outputhtml {
+top:0%; /* 0% */
+background-color:rgb(255,150,150);
+border: 5px solid red;
+}
+
+#outputxml {
+top: 33.5%; /* 0% + 32% + 1.5% */
+background-color:rgb(150,150,255);
+border: 5px solid blue;
+}
+
+#outputoperations {
+top: 67%; /* 0% + 32% + 1.5% + 32% + 1.5% */
+background-color:rgb(150,255,150);
+border: 5px solid green;
+}
+
+.lbl {
+position:absolute;
+right:1%;
+z-index:1;
+color: black);
+filter:alpha(opacity=30);
+-moz-opacity:0.3;
+-khtml-opacity: 0.3;
+opacity: 0.3;
+}
+
+#lbl1 {top:0%;}
+#lbl2 {top:33.5%;}
+#lbl3 {top:67%;}
+
